@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Michael changed the onCreate function
+        if (true){
+            System.out.println(":)");
+        }
     }
 
     @Override
